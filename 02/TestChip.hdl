@@ -1,0 +1,8 @@
+
+CHIP TestChip {
+    IN in;
+    OUT a[16];
+
+    PARTS:
+    Not(in=in, out=false);
+}
